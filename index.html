@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="/favicon.ico" rel="icon" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Neuro-sama Unofficial Store</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Neuro-sama Unofficial Store</h1>
+      <h2>Buy a Neuro-sama, spend more and broke immediately!</h2>
+      <h3>Use promotion code <i>APRILFREENEURO</i> for 100% off!</h3>
+    </div>
+    <div class="buy">
+      <stripe-buy-button
+        buy-button-id="buy_btn_1TFuslCb0iTgUcCNQqCXP9iw"
+        publishable-key="pk_test_51TFosKCb0iTgUcCNnLh8JhQhhgChu00FC965Qbz391VSocCmq5sTpmIVANFu4AN57P78VyNmnPGFyaNo6xlT3Vzn00zIVqf0hd"
+      >
+      </stripe-buy-button>
+      <stripe-buy-button
+        buy-button-id="buy_btn_1TFuy3Cb0iTgUcCN0Q4pNpqX"
+        publishable-key="pk_test_51TFosKCb0iTgUcCNnLh8JhQhhgChu00FC965Qbz391VSocCmq5sTpmIVANFu4AN57P78VyNmnPGFyaNo6xlT3Vzn00zIVqf0hd"
+      >
+      </stripe-buy-button>
+    </div>
+    <footer>
+      <p>&copy; 2026 Neuro-sama Unofficial Store | Happy April Fools Day!</p>
+    </footer>
+  </body>
+  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+  <style>
+    body {
+      padding: 20px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      line-height: 10px;
+      margin-bottom: 20px;
+    }
+    .buy {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</html>
